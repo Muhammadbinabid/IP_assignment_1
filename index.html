@@ -1,0 +1,215 @@
+<html>
+<head>
+    <title>My Fragrance</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Add your custom CSS here */
+        .navbar {
+            background-color: #e0b0ff; /* light purple */
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .jumbotron {
+            background-image: url("perfume.jpg");
+            background-size: cover;
+            height: 500px;
+            color: white;
+        }
+
+        .jumbotron h1 {
+            font-size: 60px;
+            margin-top: 100px;
+        }
+
+        .jumbotron p {
+            font-size: 24px;
+        }
+
+        .jumbotron a {
+            background-color: #800080; /* dark purple */
+            border: none;
+            padding: 15px 30px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .card {
+            margin: 20px;
+        }
+
+        .card img {
+            height: 300px;
+        }
+
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 16px;
+        }
+
+        .card a {
+            background-color: #800080; /* dark purple */
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .footer {
+            background-color: #e0b0ff; /* light purple */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Fragrance</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Find Your Perfect Scent</h1>
+            <p>Explore our collection of premium perfumes and fragrances for men and women.</p>
+            <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+    </div>
+    <!-- Cards -->
+    <div class="container">
+        <h2>Perfumes for Women</h2>
+        <div class="card-columns">
+            <div class="card">
+                <img src="perfume1.jpg" class="card-img-top" alt="Perfume 1">
+                <div class="card-body">
+                    <h5 class="card-title">Floral Fantasy</h5>
+                    <p class="card-text">A sweet and floral fragrance that will make you feel like you are in a garden of roses.</p>
+                    <p class="card-text">Rs 2,500</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="perfume2.jpg" class="card-img-top" alt="Perfume 2">
+                <div class="card-body">
+                    <h5 class="card-title">Citrus Burst</h5>
+                    <p class="card-text">A fresh and fruity fragrance that will energize you with its zesty notes of lemon and orange.</p>
+                    <p class="card-text">Rs 3,000</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="perfume3.jpg" class="card-img-top" alt="Perfume 3">
+                <div class="card-body">
+                    <h5 class="card-title">Vanilla Bliss</h5>
+                    <p class="card-text">A warm and cozy fragrance that will envelop you with its creamy notes of vanilla and caramel.</p>
+                    <p class="card-text">Rs 4,000</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <h2>Perfumes for Men</h2>
+        <div class="card-columns">
+            <div class="card">
+                <img src="perfume4.jpg" class="card-img-top" alt="Perfume 4">
+                <div class="card-body">
+                    <h5 class="card-title">Woody Wonder</h5>
+                    <p class="card-text">A masculine and sophisticated fragrance that will impress you with its woody notes of cedar and sandalwood.</p>
+                    <p class="card-text">Rs 5,000</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="perfume5.jpg" class="card-img-top" alt="Perfume 5">
+                <div class="card-body">
+                    <h5 class="card-title">Spicy Sensation</h5>
+                    <p class="card-text">A bold and adventurous fragrance that will spice up your life with its fiery notes of pepper and ginger.</p>
+                    <p class="card-text">Rs 6,000</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="perfume6.jpg" class="card-img-top" alt="Perfume 6">
+                <div class="card-body">
+                    <h5 class="card-title">Aqua Splash</h5>
+                    <p class="card-text">A refreshing and aquatic fragrance that will cool you down with its watery notes of mint and cucumber.</p>
+                    <p class="card-text">Rs 7,000</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+        <h2>Perfumes for Unisex</h2>
+        <div class="card-columns">
+            <div class="card">
+                <img src="perfume7.jpg" class="card-img-top" alt="Perfume 7">
+                <div class="card-body">
+                    <h5 class="card-title">Oriental Mystery</h5>
+                    <p class="card-text">A mysterious and exotic fragrance that will transport you to the Orient with its spicy notes of saffron and cardamom.</p>
+                    <p class="card-text">Rs 8,000</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="perfume8.jpg" class="card-img-top" alt="Perfume 8">
+                <div class="card-body">
+                    <h5 class="card-title">Green Harmony</h5>
+                    <p class="card-text">A natural and soothing fragrance that will calm you down with its green notes of grass and tea.</p>
+                    <p class="card-text">Rs 9,000</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="perfume9.jpg" class="card-img-top" alt="Perfume 9">
+                <div class="card-body">
+                    <h5 class="card-title">Musk Magic</h5>
+                    <p class="card-text">A  sensual and seductive fragrance that will charm you with its musky notes of amber and patchouli. This perfume is like a spell that will captivate everyone who smells it.</p>
+                    <p class="card-text">Rs 10,000</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <p>&copy; 2023 My Fragrance. All rights reserved.</p>
+        </div>
+    </div>
+    <!-- Bootstrap CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html
